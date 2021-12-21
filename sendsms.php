@@ -4,16 +4,16 @@
 
  if (isset($_POST['telephone']) && isset($_POST['message'])) {
      //twilio params
-     $sid = "AC869ca53ca5bafebb5d42c99674c95c5f";
-     $token = "00e1723665130eb6279b8ecd50696cb6";
+     $sid = "xxxxxxxxx";
+     $token = "xxxxxxxx";
      
 
      try {
-        
+        $number = 'xxxxxx';
         $client = new Twilio\Rest\Client($sid, $token);
         $message = $client->messages->create(
             $_POST['telephone'],array(
-                'from' => '+17378885655',
+                'from' => $number,
                 'body' => $_POST['message']
 
             )

@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: beige;
+}
+
+a {
+  color: #00B7FF;
+}
+#liste {
+  display:none
+}
+
+table tr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+input[type=text], textarea {
+  border: 1px solid black;
+}
+
+button[type=button] {
+  background-color:#00B7FF;
+  font-size: medium;
+  border: 0;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: beige;
+  font-weight:bold;
+}
+
+button[type=submit] {
+  background-color:forestgreen;
+  font-size: medium;
+  border: 0;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: beige;
+  font-weight:bold;
+}
+
+button[type=submit]:hover, button[type=button]:hover {
+  background-color:crimson;
+  cursor: pointer;
+}

@@ -1,4 +1,4 @@
-// consulter https://www.twilio.com/console pour récupérer les informations adéquats
+// consulter https://www.twilio.com/console pour récupérer les informations adéquates
 
 module.exports = {
  accountSid : //accountSID commence par AC  ,

@@ -11,7 +11,7 @@ NOTES :
 INSTRUCTIONS :
 
 Modifier le fichier bin/config.js avec les informations 
-concernant votre compte twilio 
+concernant votre compte twilio disponible ici : https://www.twilio.com/console
 
 module.exports = {
  accountSid : ## votre account SID,

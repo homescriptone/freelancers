@@ -46,6 +46,7 @@
 
 if (isset($_POST['liste'])){
   $list = $con->query('SELECT * FROM sms');
+    echo '<table border="1" >';
   while ($data = $list->fetch()){
      echo "<tr> 
      <td> " . $data['sender'] . " </td>
@@ -53,6 +54,7 @@ if (isset($_POST['liste'])){
      <td> " . $data['body'] . " </td>
           </tr>";
   }
+  echo "</table>";
 }
 
 ?>

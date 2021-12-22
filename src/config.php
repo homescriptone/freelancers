@@ -1,0 +1,6 @@
+<?php 
+
+$serviceID= "VA698f2711a4712982d2ce19e5160ae6f2";
+$accountSID= "AC69e42951444f746a718f11b995a2963b";
+$authToken= "65277a943f3a702932ecdf7f61944b20";
+$sender = "+12626003380";

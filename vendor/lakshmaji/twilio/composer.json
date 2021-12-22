@@ -1,0 +1,25 @@
+{
+    "name": "lakshmaji/twilio",
+    "description": "SMS sending using Twilio",
+    "keywords": [
+        "Twilio","Laravel","composer", "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lakshmaji",
+            "email": ""
+        }
+    ],
+    "require": {
+                "php": ">=5.3.0",
+		        "twilio/sdk": "^4.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lakshmaji\\Twilio\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}

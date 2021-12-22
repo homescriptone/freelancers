@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "01c6cc78b11fc9942634f3c5eaad9eaf",
+    "packages": [
+        {
+            "name": "lakshmaji/twilio",
+            "version": "v1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lakshmaji/twilio.git",
+                "reference": "0698bb321424abab7d2f3240331f10a261532412"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lakshmaji/twilio/zipball/0698bb321424abab7d2f3240331f10a261532412",
+                "reference": "0698bb321424abab7d2f3240331f10a261532412",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "twilio/sdk": "^4.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lakshmaji\\Twilio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "lakshmaji"
+                }
+            ],
+            "description": "SMS sending using Twilio",
+            "keywords": [
+                "composer",
+                "laravel",
+                "php",
+                "twilio"
+            ],
+            "support": {
+                "issues": "https://github.com/lakshmaji/twilio/issues",
+                "source": "https://github.com/lakshmaji/twilio/tree/v1.2.3"
+            },
+            "time": "2017-04-22T18:14:10+00:00"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "4.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "0a88c48262fbee1c3841f721f46439d3de450b95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/0a88c48262fbee1c3841f721f46439d3de450b95",
+                "reference": "0a88c48262fbee1c3841f721f46439d3de450b95",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "mockery/mockery": ">=0.7.2",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Services/Twilio.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Burke",
+                    "email": "kevin@twilio.com"
+                },
+                {
+                    "name": "Kyle Conroy",
+                    "email": "kyle+pear@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "support": {
+                "issues": "https://github.com/twilio/twilio-php/issues",
+                "source": "https://github.com/twilio/twilio-php/tree/legacy"
+            },
+            "time": "2017-11-17T22:59:03+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

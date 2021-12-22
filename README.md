@@ -3,8 +3,8 @@
 Le fichier src/con.php vous permettra de configurer la connexion à la base de donnée
 
 Une zone du fichier src/scripts.php vous permettra de configurer : 
-$sid 
-$token
+$accountsid 
+$authtoken
 $twilio_numero 
 
 NB: seul les numéros vérifiés peuvent recevoir de sms sur le comptes gratuit de Twilio.

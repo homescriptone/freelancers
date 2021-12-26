@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '830e026951c711dd786393f26e362c35cbaf05ae',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '830e026951c711dd786393f26e362c35cbaf05ae',
+            'dev_requirement' => false,
+        ),
+        'lakshmaji/twilio' => array(
+            'pretty_version' => 'v1.2.3',
+            'version' => '1.2.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../lakshmaji/twilio',
+            'aliases' => array(),
+            'reference' => '0698bb321424abab7d2f3240331f10a261532412',
+            'dev_requirement' => false,
+        ),
+        'twilio/sdk' => array(
+            'pretty_version' => '4.12.1',
+            'version' => '4.12.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twilio/sdk',
+            'aliases' => array(),
+            'reference' => '0a88c48262fbee1c3841f721f46439d3de450b95',
+            'dev_requirement' => false,
+        ),
+    ),
+);
